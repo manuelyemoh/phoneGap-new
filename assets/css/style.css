@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Helvetica",Arial,Helvetica,Geneva,sans-serif;
+}
+
+p{
+	
+	font-size:12px;
+	-webkit-user-select: none; /* Chrome/Safari */        
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+ */
+	
+	/* Rules below not implemented in browsers yet */
+	-o-user-select: none;
+	user-select: none;
+	
+}
+
+#homePage{
+	
+	background-color:#cccccc;
+	height:100%;
+	width:100%;
+	position:absolute;
+	overflow:hidden;
+	
+}
+
+/*
+ * Main Page
+ */
+
+.topNavi{
+	
+	background-image: url("../images/topNaviOrange.png");
+	height: 50px;
+	position: absolute;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	z-index:10;
+	
+}
+
+.topNavi .backButton{
+	
+	/*background-image: url("../images/backButton.png");
+    height: 67px;
+    margin: 15px 0 0 10px;
+    position: absolute;
+    width: 110px;
+	cursor:pointer;*/
+}
+
+.topNavi .glugLogo{
+	
+	background-image: url("../images/glugLogo.jpg");
+    height: 50px;
+    margin-left: 48%;
+    position: absolute;
+    width: 75px;
+	
+}
+
+.middleContent{
+	
+	background-color: #eeeeee;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+#page1{
+	
+	font-family: helvetica;
+    margin-left: 49%;
+    margin-top: 150px;
+	
+}
+
+#blogOption, #twitterOption, #videoOption, #buyOption{
+	
+	cursor:pointer;
+	
+}
+
+
+.bottomNavi{
+	
+	background-image: url("../images/bottomNavi.jpg");
+	height:120px;
+	width:100%;
+	bottom:0px;
+	position: absolute;
+}
+
+.bottomNavi p{
+	
+	font-size:190%;
+	font-weight:bold;
+	color:#999999;
+	width:120px;
+	margin: 26px;
+	
+}
+
+.bottomNavi ul{
+	
+	list-style: none;
+	
+}
+
+.bottomNavi li{
+
+	
+	width:160px;
+	float:left;
+	
+}
+
+#jqt {
+	
+	min-height: 100% !important;
+	
+}
