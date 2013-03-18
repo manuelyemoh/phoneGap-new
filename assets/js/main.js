@@ -13,24 +13,10 @@ $(document).ready(function() {
 	
 	});
 	
-	$('#tab0').mouseout(function() {
-		
-		$('#tab0').css('background-color', '#212121');
-		$('#tab0 p').css('color', '#999999');
-	
-	});
-	
 	$('#tab1').mouseover(function() {
 		
 		$('#tab1').css('background-color', '#ff6600');
 		$('#tab1 p').css('color', 'white');
-	
-	});
-	
-	$('#tab1').mouseout(function() {
-		
-		$('#tab1').css('background-color', '#212121');
-		$('#tab1 p').css('color', '#999999');
 	
 	});
 	
@@ -40,29 +26,14 @@ $(document).ready(function() {
 		$('#tab2 p').css('color', 'white');
 	
 	});
-	
-	$('#tab2').mouseout(function() {
-		
-		$('#tab2').css('background-color', '#212121');
-		$('#tab2 p').css('color', '#999999');
-	
-	});
-	
+
 	$('#tab3').mouseover(function() {
 		
 		$('#tab3').css('background-color', '#ff6600');
 		$('#tab3 p').css('color', 'white');
 	
 	});
-	
-	$('#tab3').mouseout(function() {
-		
-		$('#tab3').css('background-color', '#212121');
-		$('#tab3 p').css('color', '#999999');
-	
-	});
 
-});
 
 //alert($('.middleContent').height());
 //alert($('#tab0').width());
