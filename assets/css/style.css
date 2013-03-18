@@ -76,7 +76,7 @@ p{
 #page1{
 	
 	font-family: helvetica;
-    margin-left: 49%;
+    margin-left: 49.5%;
     margin-top: 150px;
 	
 }
@@ -153,8 +153,6 @@ p{
 
 .bottomNavi li{
 
-	
-	width:160px;
 	float:left;
 	
 }
