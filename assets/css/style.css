@@ -65,7 +65,7 @@ p{
 
 .topNavi .glugLogo{
 	
-	background-image: url("../images/glugLogo.jpg");
+	background-image: url("../images/glugLogo.png");
     height: 50px;
     left: -37.5px;
     position: absolute;
@@ -120,7 +120,7 @@ p{
     font-weight: bold;
     text-align: center;
     position:relative;
-    top:25%;
+    top:20%;
     height:60px;
     width:100%;
 	
@@ -159,11 +159,18 @@ p{
 	
 }
 
-.bottomNavi #blogOption:hover, .bottomNavi #twitterOption:hover, .bottomNavi #videoOption:hover, .bottomNavi #buyOption:hover{
+/*.bottomNavi #blogOption:hover, .bottomNavi #twitterOption:hover, .bottomNavi #videoOption:hover, .bottomNavi #buyOption:hover{
 	
 	background-color:#ff6600;
 
 }
+
+.bottomNavi :hover{
+	
+	color:#ffffff !important;
+	
+}*/
+
 
 .bottomNavi ul{
 	
