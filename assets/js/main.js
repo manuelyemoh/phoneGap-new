@@ -33,7 +33,8 @@ $(document).ready(function() {
 		$('#tab3 p').css('color', 'white');
 	
 	});
-
+	
+});
 
 //alert($('.middleContent').height());
 //alert($('#tab0').width());
