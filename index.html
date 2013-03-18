@@ -3,6 +3,7 @@
 <head>
    <meta charset="utf-8">
    <title>phoneGapTest</title>
+   <style type="text/css" media="screen">@import "assets/css/jqtouch.css";</style>
    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
@@ -14,35 +15,61 @@
   		</div>
   	</div>
   	<div class="middleContent">
-  		 <div id="pageCase">
-            <div id="page1">
-            	page1            
-            </div>
-        </div>
+  		 <div id="jqt">
+	            <div id="page1" class="touch">
+	            	<p>
+	            		page0
+	            	</p>            
+	            </div>
+	            
+	            <div id="page2" class="touch">
+	            	<p>
+	            		page1
+	            	</p>             
+	            </div>
+	            
+	            <div id="page3" class="touch">
+	            	<p>
+	            		page2
+	            	</p>             
+	            </div>
+	            
+	            <div id="page4" class="touch">
+	            	<p>
+	            		page3
+	            	</p>            
+	            </div>
+	      </div>
   	</div>
   	<div class="bottomNavi">
   		<ul>
-  			<li id="blogOption">
-  			<p>Blog<br/> 
-  		  	   News</p>
-  		 	</li>
-  		 	<li id="twitterOption"> 
-	  		<p>Twitter<br/> 
-	  		   @Glug</p>
-  		    </li>
-  		    <li id="videoOption">
-  			<p>Video<br/> 
-		   	   Archive</p>
-  		    </li>
-  		    <li id="buyOption">
-	  		<p>	Buy<br/> 
-			   Tickets</p>
-  			</li>
+  			<a href="#page1">
+  				<li id="tab0">
+  					<p>Blog<br/> 
+  		  	   		News</p>
+  		 		</li></a>
+  		 	<a href="#page2">
+  		 		<li id="tab1"> 
+	  				<p>Twitter<br/> 
+	  		   		@Glug</p>
+  		    	</li></a>
+  		    <a href="#page3">
+  		    	<li id="tab2">
+  					<p>Video<br/> 
+		   	   		Archive</p>
+  		 		</li></a>
+  		    <a href="#page4">
+  		    	<li id="tab3">
+	  				<p>	Buy<br/> 
+			   		Tickets</p>
+  				</li></a>
   		</ul>
   	</div>	
   </div>
-   <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-   <script src="http://code.jquery.com/jquery-migrate-1.1.1.min.js"></script>
+
+   <script src="phonegap.js"></script>
+   <script src="assets/js/lib/zepto.min.js" type="text/javascript" charset="utf-8"></script>
+   <script src="assets/js/jqtouch.min.js" type="text/javascript" charset="utf-8"></script>
    <script src="assets/js/main.js" type="text/javascript" charset="utf-8"></script>
 </body>
 </html>
