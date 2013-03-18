@@ -61,28 +61,6 @@ $(document).ready(function() {
 		$('#tab3 p').css('color', '#999999');
 	
 	});
-	
-	$("#tab0").click(function() {
-		
-		$('#tab0').css('background-color', '#212121');
-		$('#tab0 p').css('color', '#999999');
-	  
-	});
-	
-	$("#tab1").click(function() {
-	  
-	  
-	});
-	
-	$("#tab2").click(function() {
-	  
-	  
-	});
-	
-	$("#tab3").click(function() {
-	  
-	  
-	});
 
 });
 
