@@ -55,11 +55,19 @@ p{
 	cursor:pointer;*/
 }
 
+.topNavi .glugCase{
+
+    left:50%;
+    width:100%;
+    position:absolute;
+	
+}
+
 .topNavi .glugLogo{
 	
 	background-image: url("../images/glugLogo.jpg");
     height: 50px;
-    margin-left: 48%;
+    left: -37.5px;
     position: absolute;
     width: 75px;
 	
@@ -73,11 +81,21 @@ p{
     width: 100%;
 }
 
+#pageCase{
+	
+    left:50%;
+    width:100%;
+    position:absolute;
+	
+}
+
 #page1{
 	
 	font-family: helvetica;
-    margin-left: 49.5%;
-    margin-top: 150px;
+	font-size:2em;
+    margin-top: 250px;
+    left:-45px;
+    position:absolute;
 	
 }
 
@@ -154,11 +172,5 @@ p{
 .bottomNavi li{
 
 	float:left;
-	
-}
-
-#jqt {
-	
-	min-height: 100% !important;
 	
 }
