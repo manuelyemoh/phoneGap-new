@@ -4,6 +4,7 @@
 }
 body {
     font-family: "Helvetica",Arial,Helvetica,Geneva,sans-serif;
+    overflow:hidden;
 }
 
 p{
@@ -40,7 +41,7 @@ p{
 	width: 100%;
 	top: 0px;
 	left: 0px;
-	z-index:10;
+	z-index:11;
 	
 }
 
@@ -78,46 +79,31 @@ p{
     height: 100%;
     position: absolute;
     width: 100%;
+    overflow:hidden;
 }
 
-#pageCase0{
+#page1{
 	
-    left:50%;
-    top:50%;
-    position:absolute;
-	z-index:1;
-	height:100%;
-	float:left;
+	background-color:#cccccc;
+	
 }
 
-#pageCase1{
+#page2{
 	
-    left:50%;
-    width:100%;
-    top:50%;
-    position:absolute;
-	z-index:2;
-	float:left;
+	background-color:#dddddd;
+	
 }
 
-#pageCase2{
+#page3{
 	
-    left:50%;
-    width:100%;
-    top:50%;
-    position:absolute;
-	z-index:3;
-	float:left;
+	background-color:#eeeeee;
+	
 }
 
-#pageCase3{
+#page4{
 	
-    left:50%;
-    width:100%;
-    top:50%;
-    position:absolute;
-	z-index:4;
-	float:left;
+	background-color:#ffffff;
+	
 }
 
 #page1, #page2, #page3, #page4{
@@ -137,8 +123,9 @@ p{
 	
 	font-family: helvetica;
 	font-size:2em;
+	margin-left: -35px;
     left:50%;
-    top:50%;
+    top:30%;
     position:absolute;
 	
 }
@@ -165,10 +152,10 @@ p{
     font-weight: bold;
     text-align: center;
     position:relative;
-    top:20%;
+    top: 20%;
     height:60px;
     width:100%;
-	
+	overflow:hidden;
 }
 
 
