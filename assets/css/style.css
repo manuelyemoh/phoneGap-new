@@ -143,6 +143,7 @@ p{
 	bottom:0px;
 	position: absolute;
 	z-index:11;
+	overflow:hidden;
 }
 
 .bottomNavi p{
