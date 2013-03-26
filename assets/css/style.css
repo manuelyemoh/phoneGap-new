@@ -107,10 +107,10 @@ p{
 	
 }
 
-nav{
+#scroller{
 	
-	
-	display: -webkit-box;
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
 }
 
 section{
