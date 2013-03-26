@@ -11,6 +11,8 @@ $(document).ready(function() {
 	
 	if (!!('ontouchstart' in window)) {
 			$('nav').touchScroll();
+			$('nav').touchScroll({elastic: false}); // Turn off the elastic-bounce at the end of a scroll movement
+			$('nav').touchScroll({momentum: false}); // Turn off the momentum when a finger is lifted from the screen
 	}
 	
 	$(".tabOver").mouseover(function(){
