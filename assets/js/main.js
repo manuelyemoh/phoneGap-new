@@ -1,4 +1,7 @@
 $(document).ready(function() {
+	
+	var currentId;
+	var paragraph;
 
 	$.jQTouch({
 		icon: 'jqtouch.png',
@@ -6,60 +9,45 @@ $(document).ready(function() {
 		
 	});
 	
-	$('#tab0').mouseover(function() {
+	$(".tabOver").mouseover(function(){
 		
-		$('#tab0').css('background-color', '#ff6600');
-		$('#tab0 p').css('color', 'white');
-	
+		var currentId = $(this).attr('id');
+		//alert(currentId);
+		//alert(tab0);
+		var tabObj = eval("(" + currentId + ")");
+		$(tabObj).css('background-color', '#ff6600');
+		$(tabObj).children().css('color', 'white');
 	});
 	
-	$('#tab0').mouseout(function() {
+	$(".tabOver").mouseout(function(){
 		
-		$('#tab0').css('background-color', '#212121');
-		$('#tab0 p').css('color', '#999999');
-	
-	});
-	
-	$('#tab1').mouseover(function() {
+		var currentId = $(this).attr('id');
+		//alert(currentId);
+		//alert(tab0);
+		var tabObj = eval("(" + currentId + ")");
 		
-		$('#tab1').css('background-color', '#ff6600');
-		$('#tab1 p').css('color', 'white');
-	
-	});
-	
-	$('#tab1').mouseout(function() {
-		
-		$('#tab1').css('background-color', '#212121');
-		$('#tab1 p').css('color', '#999999');
-	
-	});
-	
-	$('#tab2').mouseover(function() {
-		
-		$('#tab2').css('background-color', '#ff6600');
-		$('#tab2 p').css('color', 'white');
-	
-	});
-	
-	$('#tab2').mouseout(function() {
-		
-		$('#tab2').css('background-color', '#212121');
-		$('#tab2 p').css('color', '#999999');
-	
-	});
-	
-	$('#tab3').mouseover(function() {
-		
-		$('#tab3').css('background-color', '#ff6600');
-		$('#tab3 p').css('color', 'white');
-	
-	});
-	
-	$('#tab3').mouseout(function() {
-		
-		$('#tab3').css('background-color', '#212121');
-		$('#tab3 p').css('color', '#999999');
-	
+		if(tabObj == tab0){
+			
+			$(tabObj).css('background-color', '#212121');
+
+			
+		}
+		if(tabObj == tab1){
+			
+			$(tabObj).css('background-color', '#2c2c2c');
+			
+		}
+		if(tabObj == tab2){
+			
+			$(tabObj).css('background-color', '#393939');
+			
+		}
+		if(tabObj == tab3){
+			
+			$(tabObj).css('background-color', '#454444');
+			
+		}
+			$(tabObj).children().css('color', '#999999');
 	});
 
 });
