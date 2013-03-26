@@ -9,6 +9,10 @@ $(document).ready(function() {
 		
 	});
 	
+	if (!!('ontouchstart' in window)) {
+			$('guideBlog').touchScroll();
+	}
+	
 	$(".tabOver").mouseover(function(){
 		
 		var currentId = $(this).attr('id');
