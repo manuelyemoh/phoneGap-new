@@ -10,8 +10,9 @@ $(document).ready(function() {
 	});
 	
 	if (!!('ontouchstart' in window)) {
+		
 			$('nav').touchScroll();
-			$('nav').touchScroll({elastic: false}); // Turn off the elastic-bounce at the end of a scroll movement
+		
 	}
 	
 	$(".tabOver").mouseover(function(){
