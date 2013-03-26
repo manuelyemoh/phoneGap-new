@@ -101,11 +101,17 @@ p{
 
 #blog #blogCase{
 	
-	overflow-y: auto;
-	-webkit-overflow-scrolling: touch;
 	display:block;
 	height: 500px;
 	margin: 50px 0 0 -320px;
+	
+}
+
+nav{
+	
+	display:block;
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
 	
 }
 
@@ -127,7 +133,7 @@ section{
 #blog{
 	
 	background-color:#ffffff;
-	background-image:none!important;
+	
 }
 
 #page1{
