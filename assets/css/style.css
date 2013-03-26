@@ -106,8 +106,17 @@ p{
 
 #blog #blogCase{
 	
-	margin-top: 50px;
-	margin-left: 50%;
+	margin: 50px 0px 0px -300px;
+	
+}
+
+section{
+	
+   bottom: 30px;
+   left: 30px;
+   overflow-y: auto;
+   margin-top: 50px;
+   margin-left: 50%;
 	
 }
 
@@ -116,7 +125,6 @@ p{
 	background-image: url('../images/testFront.jpg');
 	width: 320px;
 	height: 386px;
-	margin-left: -160px;
 
 }
 

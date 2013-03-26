@@ -10,7 +10,7 @@ $(document).ready(function() {
 	});
 	
 	if (!!('ontouchstart' in window)) {
-			$('guideBlog').touchScroll();
+			$('nav').touchScroll();
 	}
 	
 	$(".tabOver").mouseover(function(){
