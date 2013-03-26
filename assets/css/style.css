@@ -72,8 +72,8 @@ p{
 .topNavi .glugCase{
 
     left:50%;
-    width:100%;
-    position:relative;
+    width:50%;
+    position:absolute;
 	
 }
 
@@ -98,11 +98,6 @@ p{
     overflow:hidden;
 }
 
-#blog{
-	
-	background-color: #ffffff;
-	display:block;
-}
 
 #blog #blogCase{
 	
@@ -119,9 +114,7 @@ nav{
 section{
 	
    display:block;
-
    overflow-y: auto;
-
    margin-left: 50%;
 	
 }
@@ -133,6 +126,7 @@ section{
 	height: 386px;
 
 }
+
 
 #page1{
 	
