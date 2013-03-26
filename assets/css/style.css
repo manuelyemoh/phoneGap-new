@@ -103,7 +103,7 @@ p{
 	
 	display:block;
 	height: 480px;
-	margin: 50px 0px 0px -300px;
+	margin: 50px 0 0 -320px;
 	
 }
 
@@ -130,6 +130,11 @@ section{
 
 }
 
+#blog{
+	
+	background-color:#ffffff;
+	
+}
 
 #page1{
 	

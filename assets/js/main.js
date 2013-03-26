@@ -9,6 +9,12 @@ $(document).ready(function() {
 		
 	});
 	
+	if (!!('ontouchstart' in window)) {
+		
+			$('nav').touchScroll();
+		
+	}
+	
 	$(".tabOver").mouseover(function(){
 		
 		var currentId = $(this).attr('id');
