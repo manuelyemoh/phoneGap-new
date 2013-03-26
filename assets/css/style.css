@@ -104,14 +104,15 @@ p{
 	display:block;
 	height: 500px;
 	margin: 50px 0 0 -320px;
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
 	
 }
 
 nav{
 	
 	display:block;
-	overflow-y: scroll;
-	-webkit-overflow-scrolling: touch;
+
 	
 }
 
