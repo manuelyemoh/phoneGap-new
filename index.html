@@ -2,9 +2,11 @@
 <html>
 <head>
    <meta charset="utf-8">
+   <meta name="apple-mobile-web-app-capable" content="yes">
    <title>phoneGapTest</title>
    <style type="text/css" media="screen">@import "assets/css/jqtouch.css";</style>
    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+   <link href="assets/css/jqtouch.css" rel="stylesheet">
 </head>
 <body>
   <div id="homePage">
@@ -19,7 +21,7 @@
   		 	    <div id="blog" class="touch">
   		 	    	<div id="blogCase">
   		 	    		<section>
-  		 	    			<nav>
+  		 	    			<nav class="scroller" id="horiz"> 
   		 	    				<div id="guideBlog"></div>
   		 	    			</nav>
   		 	    		</section>
@@ -82,11 +84,12 @@
   </div>
 
    <!--<script src="phonegap.js"></script>-->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
    <script src="assets/js/lib/zepto.min.js" type="text/javascript" charset="utf-8"></script>
    <script src="assets/js/jqtouch.min.js" type="text/javascript" charset="utf-8"></script>
    <script src="assets/js/jqtouch-jquery.min.js" type="text/javascript" charset="UTF-8"></script>
-   <script src="assets/js/touch-scroll.min.js"></script>
+   <script src="assets/js/css-beziers.js"></script>
+   <script src="assets/js/touchscroll.min.js"></script>
    <script src="assets/js/main.js" type="text/javascript" charset="utf-8"></script>
 </body>
 </html>
