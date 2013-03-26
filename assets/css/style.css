@@ -110,13 +110,14 @@ p{
 nav{
 	
 	display:block;
-	overflow:auto
+	overflow:auto;
+	-webkit-overflow-scrolling: touch;
 }
 
 section{
 	
    display:block;
-   overflow-y: auto;
+   
    margin-left: 50%;
 	
 }
