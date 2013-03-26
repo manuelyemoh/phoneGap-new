@@ -101,17 +101,19 @@ p{
 #blog{
 	
 	background-color: #ffffff;
-	
+	display:block;
 }
 
 #blog #blogCase{
 	
+	display:block;
 	margin: 50px 0px 0px -300px;
 	
 }
 
 section{
 	
+   display:block;
    bottom: 30px;
    left: 30px;
    overflow-y: auto;
