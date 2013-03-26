@@ -101,16 +101,12 @@ p{
 
 #blog #blogCase{
 	
+	overflow-y: auto;
+	-webkit-overflow-scrolling: touch;
 	display:block;
-	height: 810px;
+	height: 700px;
 	margin: 50px 0 0 -320px;
 	
-}
-
-#scroller{
-	
-	overflow-y: scroll;
-	-webkit-overflow-scrolling: touch;
 }
 
 section{
