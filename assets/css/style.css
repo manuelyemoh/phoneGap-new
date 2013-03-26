@@ -122,6 +122,11 @@ section{
 	
 }
 
+nav{
+	
+	display:block;
+}
+
 #blog #guideBlog{
 	
 	background-image: url('../images/testFront.jpg');
