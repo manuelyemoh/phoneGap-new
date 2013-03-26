@@ -109,6 +109,7 @@ p{
 nav{
 	
 	display:block;
+	overflow:auto
 }
 
 section{
