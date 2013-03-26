@@ -9,9 +9,6 @@ $(document).ready(function() {
 		
 	});
 	
-	alert("width"+window.innerWidth);
-	alert("height"+window.innerHeight);
-	$("p").text(window.innerHeight+""+window.innerWidth);
 	$(".tabOver").mouseover(function(){
 		
 		var currentId = $(this).attr('id');

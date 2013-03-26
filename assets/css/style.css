@@ -100,8 +100,24 @@ p{
 
 #blog{
 	
-	background-color: #bbbbbb;
+	background-color: #ffffff;
 	
+}
+
+#blog #blogCase{
+	
+	margin-top: 50px;
+	margin-left: 50%;
+	
+}
+
+#blog #guideBlog{
+	
+	background-image: url('../images/testFront.jpg');
+	width: 320px;
+	height: 386px;
+	margin-left: -160px;
+
 }
 
 #page1{
