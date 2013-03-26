@@ -111,6 +111,11 @@ p{
 	
 }
 
+nav{
+	
+	display:block;
+}
+
 section{
 	
    display:block;
@@ -120,11 +125,6 @@ section{
    margin-top: 50px;
    margin-left: 50%;
 	
-}
-
-nav{
-	
-	display:block;
 }
 
 #blog #guideBlog{
