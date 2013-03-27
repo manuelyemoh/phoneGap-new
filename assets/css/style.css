@@ -99,23 +99,6 @@ p{
 }
 
 
-#blog #blogCase{
-	
-	display:block;
-	height: 500px;
-	margin: 50px 0 0 -320px;
-	overflow-y: scroll;
-	-webkit-overflow-scrolling: touch;
-	
-}
-
-nav{
-	
-	display:block;
-
-	
-}
-
 section{
 	
    display:block;
@@ -123,11 +106,158 @@ section{
 	
 }
 
-#blog #guideBlog{
+#blog #blogContent{
 	
-	background-image: url('../images/testFront.jpg');
-	width: 320px;
-	height: 386px;
+	background-image: url("../images/testFront.jpg");
+    height: 400px;
+    margin-left: -165px;
+    margin-top: 50px;
+    overflow: auto;
+    width: 330px;
+    
+}
+
+#blogContent #topSectionB{
+	
+	height: 118px;
+    width: 100%;
+	
+}
+
+#blogContent #topSectionB .glugBlogLogo{
+	
+	background-image: url("../images/glugBlogLogo.png");
+    height: 94px;
+    left: 32px;
+    position: relative;
+    top: 13px;
+    width: 94px;
+    float:left;
+}
+
+#blogContent #topSectionB h1{
+	
+	color: #000000;
+    float: left;
+    font-size: 20px;
+    height: 100px;
+    left: 50px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-shadow: none;
+    top: 34px;
+    width: 153px;
+	
+}
+
+#blogContent #topSectionB h1 span{
+	
+    font-size: 12px;
+    left: -2px;
+    position: relative;
+    top: -5px;
+
+}
+
+#blogContent hr{
+	
+	border: 1px solid;
+    color: #000000;
+    margin-left: 11px;
+    position: relative;
+    width: 90%;
+	
+}
+
+#blogContent #middleSectionB{
+	
+	height: 186px;
+    padding-left: 19px;
+    position: relative;
+    width: 100%;
+	
+}
+
+#blogContent #middleSectionB h1{
+	
+	color: #000000;
+    font-size: 12px;
+    margin: 10px 0 0;
+    text-shadow: none;
+	
+}
+
+#blogContent #middleSectionB h1 span{
+	
+	color:#ff6600;
+	
+}
+
+#blogContent #middleSectionB h2{
+	
+	color: #000000;
+    font-size: 24px;
+    margin: -4px 0 0;
+    text-shadow: none;
+	
+}
+
+#blogContent #middleSectionB h3{
+	
+	color: #000000;
+    font-size: 34px;
+    margin: 2px 0 0;
+    text-shadow: none;
+	
+}
+
+#blogContent #middleSectionB #h31{
+
+    margin: -14px 0 0;
+	
+}
+
+#blogContent #middleSectionB h4{
+	
+	color: #000000;
+    font-size: 12px;
+    margin: 9px 0 0;
+    text-shadow: none;
+    width: 144px;
+	
+}
+
+#blogContent #middleSectionB h5{
+	
+	color: #000000;
+    font-size: 9px;
+    margin: 4px 0 0;
+    text-shadow: none;
+    width: 100%;
+	
+}
+
+
+#blogContent #bottomSectionB{
+	
+	background-color: #FF6600;
+    height: 55px;
+    margin: 10px 0 0 12px;
+    width: 296px;
+	
+}
+
+#blogContent #bottomSectionB h1{
+	
+	color: #FFFFFF;
+    font-size: 25px;
+    font-weight: normal;
+    left: 99px;
+    margin: 0;
+    position: relative;
+    top: 13px;
+    width: 100%;
 
 }
 
@@ -169,7 +299,7 @@ section{
 	
 }
 
-,#page1, #page2, #page3, #page4{
+#page1, #page2, #page3, #page4{
 	
 	width:100%;
 	height:100%;
