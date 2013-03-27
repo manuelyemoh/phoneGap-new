@@ -106,25 +106,23 @@ section{
 	
 }
 
-#blog #blogContent{
+#blog #scrollMe{
 	
-	background-image: url("../images/testFront.jpg");
     height: 400px;
-    margin-left: -165px;
-    margin-top: 100px;
-    overflow: auto;
+    margin: 50px 0 0 -165px;
     width: 330px;
+    overflow:auto;
     
 }
 
-#blogContent #topSectionB{
+#scrollMe #topSectionB{
 	
 	height: 118px;
     width: 100%;
 	
 }
 
-#blogContent #topSectionB .glugBlogLogo{
+#scrollMe #topSectionB .glugBlogLogo{
 	
 	background-image: url("../images/glugBlogLogo.png");
     height: 94px;
@@ -135,7 +133,7 @@ section{
     float:left;
 }
 
-#blogContent #topSectionB h1{
+#scrollMe #topSectionB h1{
 	
 	color: #000000;
     float: left;
@@ -151,7 +149,7 @@ section{
 	
 }
 
-#blogContent #topSectionB h1 span{
+#scrollMe #topSectionB h1 span{
 	
     font-size: 12px;
     left: -2px;
@@ -160,7 +158,7 @@ section{
 
 }
 
-#blogContent hr{
+#scrollMe hr{
 	
 	border: 1px solid;
     color: #000000;
@@ -170,7 +168,7 @@ section{
 	
 }
 
-#blogContent #middleSectionB{
+#scrollMe #middleSectionB{
 	
 	height: 186px;
     padding-left: 19px;
@@ -179,7 +177,7 @@ section{
 	
 }
 
-#blogContent #middleSectionB h1{
+#scrollMe #middleSectionB h1{
 	
 	color: #000000;
     font-size: 12px;
@@ -188,13 +186,13 @@ section{
 	
 }
 
-#blogContent #middleSectionB h1 span{
+#scrollMe #middleSectionB h1 span{
 	
 	color:#ff6600;
 	
 }
 
-#blogContent #middleSectionB h2{
+#scrollMe #middleSectionB h2{
 	
 	color: #000000;
     font-size: 24px;
@@ -203,7 +201,7 @@ section{
 	
 }
 
-#blogContent #middleSectionB h3{
+#scrollMe #middleSectionB h3{
 	
 	color: #000000;
     font-size: 34px;
@@ -212,13 +210,13 @@ section{
 	
 }
 
-#blogContent #middleSectionB #h31{
+#scrollMe #middleSectionB #h31{
 
     margin: -14px 0 0;
 	
 }
 
-#blogContent #middleSectionB h4{
+#scrollMe #middleSectionB h4{
 	
 	color: #000000;
     font-size: 12px;
@@ -228,7 +226,7 @@ section{
 	
 }
 
-#blogContent #middleSectionB h5{
+#scrollMe #middleSectionB h5{
 	
 	color: #000000;
     font-size: 9px;
@@ -239,7 +237,7 @@ section{
 }
 
 
-#blogContent #bottomSectionB{
+#scrollMe #bottomSectionB{
 	
 	background-color: #FF6600;
     height: 55px;
@@ -248,7 +246,7 @@ section{
 	
 }
 
-#blogContent #bottomSectionB h1{
+#scrollMe #bottomSectionB h1{
 	
 	color: #FFFFFF;
     font-size: 25px;
@@ -257,7 +255,7 @@ section{
     margin: 0;
     position: relative;
     top: 13px;
-    width: 100%;
+    width: 100px;
 
 }
 
