@@ -109,9 +109,11 @@ section{
 #blog #scrollMe{
 	
     height: 400px;
-    margin: 50px 0 0 -165px;
+    margin: 0 0 0 -165px;
+    overflow: auto;
+    position: relative;
+    top: 50px;
     width: 330px;
-    overflow:auto;
     
 }
 
