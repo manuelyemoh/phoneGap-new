@@ -14,6 +14,7 @@ $(document).ready(function() {
 	function initLineUp(){
 		
 		var imageURL = "http://www.naturalappbility.com/admin/images/"+myArray[0];
+		//alert(myArray[0]);
 		$(".array1").css({'background-image': 'url(' + imageURL + ')', });
 		$(".array2").html(myArray[1]);
 		$(".array3").html(myArray[2]);
@@ -29,7 +30,7 @@ $(document).ready(function() {
     $.ajax
 	({
 	    type: "GET",
-	    url: "http://www.naturalappbility.com/index.php",
+	    url: "http://www.naturalappbility.com/admin/dbGrab.php",
 	    crossDomain: true,
     	dataType: "json",
 	    cache: false,
