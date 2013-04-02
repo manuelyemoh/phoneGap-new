@@ -11,6 +11,18 @@ $(document).ready(function() {
 	
 	myArray = [];
 	
+	$('#bottomSectionB').click(function(){
+		
+		setTimeout(refreshPage, 700)
+		
+	});
+	
+	function refreshPage(){
+		
+		location.reload();
+		
+	}
+	
 	function initLineUp(){
 		
 		var imageURL = "http://www.naturalappbility.com/admin/images/"+myArray[0];
