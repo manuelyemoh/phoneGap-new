@@ -23,7 +23,6 @@ $(document).ready(function() {
 	
 	//if (/lineUp/i.test(testUrl)){
 		
-		myCall();
 		
 	//}
 	/*if ($(location).attr('href') === 'http://localhost:8888/phoneGap/index.html#lineUp')
@@ -90,6 +89,8 @@ $(document).ready(function() {
   			}
 	});
 	}
+	
+	setTimeout(myCall, 100);
 
 	$(".tabOver").mouseover(function(){
 		
