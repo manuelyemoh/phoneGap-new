@@ -9,6 +9,50 @@ $(document).ready(function() {
 		
 	});
 	
+	myArray = [];
+	
+	function initLineUp(){
+		
+		var imageURL = "http://www.naturalappbility.com/admin/images/"+myArray[0];
+		$(".array1").css({'background-image': 'url(' + imageURL + ')', });
+		$(".array2").html(myArray[1]);
+		$(".array3").html(myArray[2]);
+		$(".array4").html(myArray[3]);
+		$(".array5").html(myArray[4]);
+		$(".array6").html(myArray[5]);
+		$("#elementID").html("another string");
+		
+	}
+
+	function myCall() {
+
+    $.ajax
+	({
+	    type: "GET",
+	    url: "http://www.naturalappbility.com/index.php",
+	    crossDomain: true,
+    	dataType: "json",
+	    cache: false,
+	    success: function(data)
+		    {
+		    	
+		        myArray.push(data[0])
+		        myArray.push(data[1])
+		        myArray.push(data[2])
+		        myArray.push(data[3])
+		        myArray.push(data[4])
+		        myArray.push(data[5])
+		        
+		        setTimeout(initLineUp, 100);
+		    },
+    	error: function(XMLHttpRequest, textStatus, errorThrown) {
+    		 alert("errorThrown-->"+errorThrown);
+  			}
+	});
+	}
+	 
+     setTimeout(myCall, 1000);
+
 	$(".tabOver").mouseover(function(){
 		
 		var currentId = $(this).attr('id');
