@@ -9,24 +9,26 @@ $(document).ready(function() {
 		
 	});
 	
-	myArray = [];
+	var myArray = [];
 	
 	$('#bottomSectionB').click(function(){
 		
-		setTimeout(refreshPage, 700)
+		setTimeout(myCall, 50)
 		
 	});
 	
-	function refreshPage(){
+	$('.backButton').click(function(){
 		
-		location.reload();
+		myArray = [];
+		//alert(myArray);
 		
-	}
+	});
 	
 	function initLineUp(){
 		
 		var imageURL = "http://www.naturalappbility.com/admin/images/"+myArray[0];
 		//alert(myArray[0]);
+		//alert(myArray);
 		$(".array1").css({'background-image': 'url(' + imageURL + ')', });
 		$(".array2").html(myArray[1]);
 		$(".array3").html(myArray[2]);
@@ -63,8 +65,6 @@ $(document).ready(function() {
   			}
 	});
 	}
-	 
-     setTimeout(myCall, 1000);
 
 	$(".tabOver").mouseover(function(){
 		
