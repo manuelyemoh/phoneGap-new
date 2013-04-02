@@ -13,14 +13,14 @@ $(document).ready(function() {
 	
 	$('#bottomSectionB').click(function(){
 		
-		setTimeout(myCall, 50)
+		setTimeout(myCall, 50);
 		
 	});
 	
 	$('.backButton').click(function(){
 		
 		myArray = [];
-		//alert(myArray);
+		document.location = "index.html";
 		
 	});
 	
