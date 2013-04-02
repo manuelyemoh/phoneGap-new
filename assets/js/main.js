@@ -10,11 +10,36 @@ $(document).ready(function() {
 	});
 	
 	var myArray = [];
+	 
+	
+	//function refreshPage(){
+		
+		
+		//alert("hit");
+		
+	//}
+	
+	//var testUrl = $(location).attr('href');
+	
+	//if (/lineUp/i.test(testUrl)){
+		
+		myCall();
+		
+	//}
+	/*if ($(location).attr('href') === 'http://localhost:8888/phoneGap/index.html#lineUp')
+	{
+     alert("here");
+	}
+	else{
+		
+		alert("not here");
+	}*/
 	
 	$('#bottomSectionB').click(function(){
 		
-		setTimeout(myCall, 50);
+		//setTimeout(refreshPage, 700);
 		
+
 	});
 	
 	$('.backButton').click(function(){
