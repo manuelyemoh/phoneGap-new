@@ -12,12 +12,12 @@ $(document).ready(function() {
 	var myArray = [];
 	 
 	
-	//function refreshPage(){
+	function refreshPage(){
 		
-		
-		//alert("hit");
-		
-	//}
+		myArray = [];
+		document.location = "index.html";
+
+	}
 	
 	//var testUrl = $(location).attr('href');
 	
@@ -43,8 +43,7 @@ $(document).ready(function() {
 	
 	$('.backButton').click(function(){
 		
-		myArray = [];
-		document.location = "index.html";
+		setTimeout(refreshPage, 500);
 		
 	});
 	
