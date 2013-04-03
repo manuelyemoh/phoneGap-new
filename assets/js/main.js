@@ -74,13 +74,12 @@ $(document).ready(function() {
 	    success: function(data)
 		    {
 		    	
-		        myArray.push(data[0])
-		        myArray.push(data[1])
-		        myArray.push(data[2])
-		        myArray.push(data[3])
-		        myArray.push(data[4])
-		        myArray.push(data[5])
-		        
+		        myArray.push(data[0]);
+		        myArray.push(data[1]);
+		        myArray.push(data[2]);
+		        myArray.push(data[3]);
+		        myArray.push(data[4]);
+		        myArray.push(data[5]);
 		        setTimeout(initLineUp, 100);
 		    },
     	error: function(XMLHttpRequest, textStatus, errorThrown) {

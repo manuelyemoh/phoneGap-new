@@ -348,11 +348,11 @@ section{
 #lineUp #scrollMe{
 	
 	height: 400px;
-	margin: 0 0 0 -175px;
+	margin: 0 0 0 -165px;
 	overflow: auto;
 	position: relative;
 	top: 50px;
-	width: 363px;
+	width: 330px;
 
 }
 
@@ -366,10 +366,10 @@ section{
 	
 	background-image:url:("../");
 	height: 180px;
-	width: 326px;
+	width: 300px;
 	position: relative;
 	z-index: 10;
-	margin: 14px 0px 0px 15px;
+	margin: 14px 0px 0px 0px;
 	
 }
 
@@ -377,7 +377,7 @@ section{
 	
 	color: #fc6621!important;
 	font-size: 15px!important;
-	margin: 15px 0px 0px 11px;
+	margin: 15px 0px 0px 0px;
 	text-shadow: none;
 	font-family: helvetica;
 	
@@ -385,17 +385,19 @@ section{
 
 #lineUp #lineUpcontent p{
 	
-	margin: 7px 0px 0px 12px;
-	width: 348px;
 	font-family: helvetica;
-	font-size: 12px;
+    font-size: 11px;
+    margin: 7px 0 0;
+    width: 285px;
 	
 }
 
 #lineUp #lineUpcontent #socialMedia{
 	
-	width:100%;
-	height:100px;
+	width: 100%;
+	height: 100px;
+	margin-left: -7px;
+	
 }
 
 #lineUp #lineUpcontent #twitter{
@@ -429,7 +431,7 @@ section{
 	
 	color: #000000;
 	font-family: Helvetica;
-	font-size: 14px;
+	font-size: 13px;
 	font-weight: normal;
 	margin: 0px;
 	width: 330px;
